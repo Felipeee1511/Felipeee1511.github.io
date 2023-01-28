@@ -1,0 +1,32 @@
+.logoContainer{
+    justify-content: start!important;
+}
+.itemsContainer{
+    justify-content: end!important;
+}
+.navBar{
+    background-color:#F9F7F7;
+}
+
+.itemMenu{
+    color:  #112D4E!important;
+    font-size:3vh!important;
+    font-weight: 400!important;
+    }
+
+    .navbar-collapse{
+       flex-grow: inherit!important;
+    }     
+    /* @media screen and (max-width: 998px) {
+        .navbar-collapse{
+            background-color:  #112D4E!important;
+            
+        } 
+        .itemMenu{
+            color: #dbe2ef !important;
+        }
+    }
+     */
+     .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        text-align: center;
+     }

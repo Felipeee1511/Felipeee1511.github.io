@@ -1,0 +1,135 @@
+.servicios{
+    background-color: #f5f5f5;
+    padding: 2vh 0;
+    text-align: center;
+    color:#112D4E;
+}
+
+
+
+.cardServicios{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.oval {
+    
+    width: 200px;
+    height: 90px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #112D4E;
+    margin: auto!important;
+    color: #F9F7F7;
+}
+.textHover{
+    pointer-events: none;
+    width: 250px;
+     height: 70px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 50% / 0 100%;
+     background: #3F72AF;
+     color: #DBE2EF;
+     border: 3px solid #555;
+     margin:auto;
+     
+}
+.textHoverLimpInd{
+    width: 250px;
+     height: 70px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 50% / 0 100%;
+     background: #3F72AF;
+     color: #DBE2EF;
+     border: 3px solid #555;
+     margin:auto;
+}
+.textHoverResPel{
+    width: 250px;
+     height: 70px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 50% / 0 100%;
+     background: #3F72AF;
+     color: #DBE2EF;
+     border: 3px solid #555;
+     margin:auto;
+
+}
+.textHoverAseoSost{
+    width: 250px;
+     height: 70px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 50% / 0 100%;
+     background: #3F72AF;
+     color: #DBE2EF;
+     border: 3px solid #555;
+     margin:auto;
+}
+.textHoverMantTerr{
+    
+    width: 250px;
+     height: 70px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 50% / 0 100%;
+     background: #3F72AF;
+     color: #DBE2EF;
+     border: 3px solid #555;
+     margin:auto;
+}
+.mantTerr1{
+    opacity: 0;
+}
+.obrasCiv:hover  ~ .textHover{
+    display: inline!important;
+}
+.limpInd:hover  ~ .textHoverLimpInd{
+    display: inline!important;
+}
+.resPel:hover ~ .textHoverResPel{
+    display: inline!important;
+}
+.aseoSost:hover ~ .textHoverAseoSost{
+    display: inline!important;
+}
+.mantTerr:hover ~ .textHoverMantTerr{
+    display: flex;
+    
+}
+
+.serviciosPostTitulo{
+    margin-bottom: 3vh;
+}
+
+.cardServices{
+    margin: auto;
+    background-image: url('/src/assets/imagenServ1.png');
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:4vh!important;
+    margin-top:30px;
+    min-width: 200px!important;
+    box-sizing: content-box;
+}
+.containerOvals{
+    display: contents;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.tittleServices{
+    color:#000;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: 1;
+    padding: 1vh;
+    font-size: 3vh;
+    max-width:30vh;
+}

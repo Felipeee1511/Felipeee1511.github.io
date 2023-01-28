@@ -1,0 +1,50 @@
+.footer{
+    background-color:#DBE2EF ;
+    color: 
+    #112D4E;
+    padding: 20px;
+    text-align: justify;
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+}
+ul{
+    font-size:2vh;
+    font-weight: 300;
+    list-style: none;  
+    color: #112D4E;
+    text-align: justify;
+}
+a{
+    color: #112D4E!important;
+    text-decoration: none!important;
+}
+li{
+color:#112D4E;
+padding: 10px;
+font-weight: 500;
+
+
+}
+.socialNetwork{
+    display: flex!important;
+}
+.socialNetworkTitle{
+    opacity: 0;
+}
+.socialNetworkItem{
+    margin:auto;
+    font-size:3vh;
+    
+}
+.contactItem{
+    border-bottom: #3F72AF 1px solid;
+    margin: auto;
+}
+a:hover{
+    color: #af3f52!important;
+}
+.placeholderFooter{
+    opacity: 0;
+}
