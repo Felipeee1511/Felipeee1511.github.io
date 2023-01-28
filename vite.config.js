@@ -5,9 +5,13 @@ import react from '@vitejs/plugin-react'
 
 
 
-export default defineConfig({
+module.exports = defineConfig({
   plugins: [react(),],
-  path: {'@': './dist'}
+  path: {'@': './dist'},
+  transform: {
+    '^.+\\.jsx?$': 'babel-jest'
+  }
   
  
 })
+
