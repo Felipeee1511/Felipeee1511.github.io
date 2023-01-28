@@ -5,13 +5,16 @@ import react from '@vitejs/plugin-react'
 
 
 
-module.exports = defineConfig({
-  plugins: [react(),],
-  path: {'@': './dist'},
-  transform: {
-    '^.+\\.jsx?$': 'babel-jest'
-  }
-  
- 
+export default defineConfig(() => ({
+  esbuild: {
+    loader: 'jsx',
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      loader: {
+        '.js': 'jsx',
+      },
+    },
+  },
 })
-
+)
