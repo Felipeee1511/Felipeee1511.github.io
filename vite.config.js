@@ -7,16 +7,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react(),],
-  path: {'@': './dist'},
-  transform: {
-    '^.+\\.jsx?$': 'babel-jest'
-  },
-  
-  esbuild: {
-    jsxFactory: '_jsx',
-    jsxFragment: '_jsxFragment',
-    jsxInject: `import { createElement as _jsx, Fragment as _jsxFragment } from 'react'`,
-  }
+  path: {'@': './dist'}
+ 
   
   
  
