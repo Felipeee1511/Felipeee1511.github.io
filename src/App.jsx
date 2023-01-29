@@ -1,6 +1,6 @@
 import Inicio from './components/inicio/Inicio'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import FormularioContacto from './components/contacto/formularioContacto/FormularioContacto';
+import FormularioContacto from './components/contacto/FormularioContacto';
 import Servicios from './components/servicios/Servicios';
 import Nosotros from './components/nosotros/Nosotros';
 
