@@ -1,8 +1,8 @@
-import Inicio from './components/inicio/Inicio'
+import Inicio from './components/inicio/Inicio';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import FormularioContacto from './components/contacto/FormularioContacto';
-import Servicios from './components/servicios/Servicios';
-import Nosotros from './components/nosotros/Nosotros';
+import FormularioContacto from './components/contacto/formularioContacto';
+import Servicios from './components/servicios/servicios';
+import Nosotros from './components/nosotros/nosotros';
 
 
 function App() {
