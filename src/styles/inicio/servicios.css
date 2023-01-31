@@ -22,84 +22,7 @@
     margin: auto!important;
     color: #F9F7F7;
 }
-.textHover{
-    pointer-events: none;
-    width: 250px;
-     height: 70px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #3F72AF;
-     color: #DBE2EF;
-     border: 3px solid #555;
-     margin:auto;
-     
-}
-.textHoverLimpInd{
-    width: 250px;
-     height: 70px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #3F72AF;
-     color: #DBE2EF;
-     border: 3px solid #555;
-     margin:auto;
-}
-.textHoverResPel{
-    width: 250px;
-     height: 70px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #3F72AF;
-     color: #DBE2EF;
-     border: 3px solid #555;
-     margin:auto;
 
-}
-.textHoverAseoSost{
-    width: 250px;
-     height: 70px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #3F72AF;
-     color: #DBE2EF;
-     border: 3px solid #555;
-     margin:auto;
-}
-.textHoverMantTerr{
-    
-    width: 250px;
-     height: 70px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #3F72AF;
-     color: #DBE2EF;
-     border: 3px solid #555;
-     margin:auto;
-}
-.mantTerr1{
-    opacity: 0;
-}
-.obrasCiv:hover  ~ .textHover{
-    display: inline!important;
-}
-.limpInd:hover  ~ .textHoverLimpInd{
-    display: inline!important;
-}
-.resPel:hover ~ .textHoverResPel{
-    display: inline!important;
-}
-.aseoSost:hover ~ .textHoverAseoSost{
-    display: inline!important;
-}
-.mantTerr:hover ~ .textHoverMantTerr{
-    display: flex;
-    
-}
 
 .serviciosPostTitulo{
     margin-bottom: 3vh;
@@ -116,6 +39,7 @@
     margin-top:30px;
     min-width: 200px!important;
     box-sizing: content-box;
+    width: 100%;
 }
 .containerOvals{
     display: contents;
