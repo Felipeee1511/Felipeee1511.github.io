@@ -17,17 +17,12 @@ const Nosotros = () => {
                                 <Card.Body>
                                     <div className='mb-3'>
                                     <h1> Misión</h1>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+                                    "Satisfacer las necesidades de nuestros clientes durante la duración del proyecto. Entregamos un servicio de alta calidad, regido por exigentes estándares en seguridad, calidad y puntualidad" 
                                     </div>
                                     <div className='mb-3'>
                                       <h1> Visión</h1>
-                                    "Lorem ipsum dolor sit samet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+                                    "Mantener a lo largo del tiempo el sello que nos caracteriza, como una empresa integral y detallista en el ámbito de la construcción y la limpieza, preocupándonos por la disminución de residuos, para así convertirnos en una empresa ambientalmente responsable, lograr que nuestro personal se sienta motivado y orgulloso de pertenecer a VP Construcciones, corregir debilidades para siempre poder entregar un mejor servicio, logrando la
+                                     satisfacción de nuestros clientes. Además de ser una empresa mundialmente reconocida por su compromiso, calidad e innovación en cada uno de nuestros procesos" 
                                     </div>
                                 </Card.Body>    
                             </Card>

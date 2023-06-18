@@ -3,12 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../../../styles/header/navBar.css";
 import Logo from "../../../assets/logo.png";
+import Logo1 from "../../../../logo1.png"
 
 function navBarMenu () {
   return (
     <Navbar collapseOnSelect expand="lg"   sticky="top" className='navBar'>
       <Container className='logoContainer'>
-        <Navbar.Brand href="/"><img src={Logo} width={151} height={50} alt="LogoVP-Construcciones"/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={Logo1} width={180} height={94} alt="LogoVP-Construcciones"/></Navbar.Brand>
         </Container>
         
          <Container className='itemsContainer'>

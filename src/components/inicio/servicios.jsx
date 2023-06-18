@@ -1,5 +1,9 @@
+import { CardGroup } from "react-bootstrap";
 import "../../styles/inicio/servicios.css";
 import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Carousel from 'react-grid-carousel'
 
 // Limpieza Industrial, Obras Civiles, Residuos Peligrosos, Aseo y sostenibilidad, Mantención de terrenos
 
@@ -8,6 +12,7 @@ const Servicios = () => {
         <div className="cardServicios">
           <div className="container">
             <div className="row">
+              
               
               <Card className="text-center">
                 <Card.Header>
@@ -23,47 +28,72 @@ const Servicios = () => {
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."   
                   </div>
 
-                  <div className="container">
+                  <div className="container cardServicios">
                     <div className="row ">
                       <div className="containerOvals">
-                        <Card className="col-md-4 cardServices">
+                 
+                      <Carousel cols={2} rows={1} gap={10} loop>
+      <Carousel.Item>
+      <Card className="cardServices">
                               <strong className="tittleServices">
                                 Limpieza Industrial  
                               </strong>
                             
                         </Card>
-                        
-                        <Card className="col-md-4 cardServices">
+      </Carousel.Item>
+      <Carousel.Item>
+      <Card className="cardServices">
                             
-                              <strong className=" tittleServices">
-                              Obras Civiles  
+                            <strong className=" tittleServices">
+                            Obras Civiles  
+                            </strong>
+                          
+                          
+                      </Card> 
+      </Carousel.Item>
+      <Carousel.Item>
+      <Card className="cardServices">
+                              
+                              <strong className="tittleServices">
+                                Residuos Peligrosos
                               </strong>
                             
                             
-                        </Card>
-
-                        <Card className="col-md-4 cardServices">
-                              
-                                <strong className="tittleServices">
-                                  Residuos Peligrosos
-                                </strong>
-                              
-                              
-                            
-                        </Card>
-                        <Card className="col-md-4 cardServices">
+                          
+                      </Card>
+      </Carousel.Item>
+      <Carousel.Item>
+      <Card className="cardServices">
                               <strong className="tittleServices">
                               Aseo y sostenibilidad  
                               </strong>
                             
                         </Card>
-                       
-                        <Card className="cardServices col-md-4">
+      </Carousel.Item>
+      <Carousel.Item>
+      <Card className="cardServices">
                               <strong className="tittleServices">
                             Mantención de terrenos 
                               </strong>
                             
                         </Card>
+      </Carousel.Item>
+    </Carousel>
+                   
+                        
+                  
+                  
+                
+
+                
+                       
+                        
+                        
+
+                       
+                        
+                       
+                        
                        
                     </div>
 
