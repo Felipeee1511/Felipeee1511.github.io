@@ -1,13 +1,12 @@
-import { CardGroup } from "react-bootstrap";
 import "../../styles/inicio/servicios.css";
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Carousel from 'react-grid-carousel'
+import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
+
+import CarouselSlider from "./carouselSlider"
 
 // Limpieza Industrial, Obras Civiles, Residuos Peligrosos, Aseo y sostenibilidad, Mantención de terrenos
 
 const Servicios = () => {
+  
     return (
         <div className="cardServicios">
           <div className="container">
@@ -32,60 +31,20 @@ const Servicios = () => {
                     <div className="row ">
                       <div className="containerOvals">
                  
-                      <Carousel cols={2} rows={1} gap={10} loop>
-      <Carousel.Item>
-      <Card className="cardServices">
-                              <strong className="tittleServices">
-                                Limpieza Industrial  
-                              </strong>
-                            
-                        </Card>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Card className="cardServices">
-                            
-                            <strong className=" tittleServices">
-                            Obras Civiles  
-                            </strong>
-                          
-                          
-                      </Card> 
-      </Carousel.Item>
-      <Carousel.Item>
-      <Card className="cardServices">
-                              
-                              <strong className="tittleServices">
-                                Residuos Peligrosos
-                              </strong>
-                            
-                            
-                          
-                      </Card>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Card className="cardServices">
-                              <strong className="tittleServices">
-                              Aseo y sostenibilidad  
-                              </strong>
-                            
-                        </Card>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Card className="cardServices">
-                              <strong className="tittleServices">
-                            Mantención de terrenos 
-                              </strong>
-                            
-                        </Card>
-      </Carousel.Item>
-    </Carousel>
-                   
+                      
+     
+    
+      
+     
                         
-                  
+                   
+                      
+             
+         
                   
                 
-
-                
+   
+                 <CarouselSlider/>
                        
                         
                         
@@ -105,6 +64,7 @@ const Servicios = () => {
               </Card>
             </div>
           </div>
+         
         </div>
            
                     )
