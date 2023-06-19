@@ -7,12 +7,14 @@
 
 
 
-/* .cardServicios{
+.cardServicios{
     
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.cardsServices{
+    padding-bottom: 10px;
+}
 /* .oval {
     
     width: 200px;
@@ -42,6 +44,7 @@
     min-width: 200px!important;
     box-sizing: content-box;
     width: 100%;
+
 }
 /* .containerOvals{
     display: contents;
@@ -63,3 +66,18 @@
 .slick-prev:before, .slick-next:before {
     color: black !important;;
 }
+/* .slick-slide {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 1024px) {
+    .slick-slide {
+      margin: 0 5px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .slick-slide {
+      margin: 0;
+    }
+  } */

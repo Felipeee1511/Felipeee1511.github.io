@@ -1,5 +1,5 @@
 import "../../styles/inicio/servicios.css";
-import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
+import {  Card } from 'react-bootstrap';
 
 import CarouselSlider from "./carouselSlider"
 
@@ -27,37 +27,9 @@ const Servicios = () => {
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."   
                   </div>
 
-                  <div className="container cardServicios">
-                    <div className="row ">
-                      <div className="containerOvals">
-                 
-                      
-     
-    
-      
-     
-                        
-                   
-                      
-             
-         
-                  
-                
-   
-                 <CarouselSlider/>
-                       
-                        
-                        
-
-                       
-                        
-                       
-                        
-                       
-                    </div>
-
-                  
-                </div> 
+                  <div className="container cardsServices">
+                    <CarouselSlider/>
+                    
                   
                   </div>
                 </Card.Body>
